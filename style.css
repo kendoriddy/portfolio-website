@@ -28,12 +28,14 @@ header {
 
 .headline {
   text-align: center;
+  background-image: url("assets/images/bg-stripes.png");
 }
 
 .introduction {
   font-size: 40px;
   line-height: 52px;
-  margin: 30px 10px 60px 10px;
+  margin: 0px 10px 60px 10px;
+  padding-top: 60px;
 }
 
 .introduction span {
@@ -54,4 +56,37 @@ header {
 
 .social-links {
   margin-bottom: 50px;
+}
+
+.down-arrow {
+  text-align: center;
+}
+
+.des1 {
+  position: absolute;
+  right: 0;
+}
+
+.des2 {
+  position: absolute;
+  left: 10px;
+  top: 200px;
+}
+
+.des3 {
+  position: absolute;
+  right: 0px;
+  top: 250px;
+}
+
+.des4 {
+  position: absolute;
+  left: 0px;
+  top: 310px;
+}
+
+.des5 {
+  position: absolute;
+  right: 0px;
+  top: 660px;
 }
