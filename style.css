@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+a {
+  color: #28352f;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.welcome {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.introduction {
+  font-size: 40px;
+  line-height: 52px;
+  margin: 30px 10px 60px 10px;
+}
+
+.introduction span {
+  color: #36b37e;
+}
+
+.support-text {
+  margin: 0px 10px 40px 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-links {
+  margin-bottom: 50px;
+}
