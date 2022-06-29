@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Inter" Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -34,7 +34,7 @@ header {
 .introduction {
   font-size: 40px;
   line-height: 52px;
-  margin: 0px 10px 60px 10px;
+  margin: 0 10px 60px 10px;
   padding-top: 60px;
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 .support-text {
-  margin: 0px 10px 40px 10px;
+  margin: 0 10px 40px 10px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -75,18 +75,18 @@ header {
 
 .des3 {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 250px;
 }
 
 .des4 {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 310px;
 }
 
 .des5 {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 660px;
 }
