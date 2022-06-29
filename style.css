@@ -34,7 +34,7 @@ header {
 .introduction {
   font-size: 40px;
   line-height: 52px;
-  margin: 0px 10px 60px 10px;
+  margin: 0 10px 60px 10px;
   padding-top: 60px;
 }
 
@@ -64,7 +64,7 @@ header {
 
 .des1 {
   position: absolute;
-  right: 0px;
+  right: 0;
 }
 
 .des2 {
@@ -75,18 +75,18 @@ header {
 
 .des3 {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 250px;
 }
 
 .des4 {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 310px;
 }
 
 .des5 {
   position: absolute;
-  right: 0px;
-  top: 660px;
+  right: 0;
+  top: 630px;
 }
