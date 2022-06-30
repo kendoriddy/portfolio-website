@@ -261,8 +261,9 @@ header {
   padding: 20px 0;
   gap: 10px;
   color: #36b37e;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
