@@ -277,3 +277,14 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
 }
+
+.contact p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+padding: 0 15px;
+  color: #172b4d;
+}
