@@ -90,3 +90,263 @@ header {
   right: 0;
   top: 630px;
 }
+
+.design-images {
+  position: relative;
+}
+
+.illus1 {
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.illus2 {
+  position: absolute;
+  left: 0;
+  top: 270px;
+}
+
+.work {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.grid-container {
+  width: 90vw;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.card {
+  background: #ebf0ee;
+  border-radius: 8px;
+  background-image: url(assets/images/placeholder.png) cover no-repeat;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 0;
+}
+
+.card-items {
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d0d9d4;
+}
+
+.card-items h5 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.card-items ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+.card-items ul li {
+  padding: 8px 12px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.card-items button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+}
+
+.about {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  padding: 15px;
+}
+
+.about button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+}
+
+.skills {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.skill-card {
+  background: #ebf0ee;
+  border-radius: 8px;
+  background-image: url(assets/images/placeholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+
+.skill-items img {
+  margin: 0 auto;
+}
+
+.skill-items h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+  margin-top: 15px;
+}
+
+.skill-items ul {
+  list-style: none;
+  font-size: 15px;
+  padding: 20px 0;
+  gap: 10px;
+  color: #36b37e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.skill-items ul li {
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.contact h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0 15px;
+  color: #172b4d;
+  margin-bottom: 40px;
+}
+
+input,
+textarea {
+  width: 90vw;
+  padding: 12px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input {
+  height: 50px;
+}
+
+.form-action {
+  text-align: center;
+}
+
+.form-action button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  width: fit-content;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-links {
+  margin-top: -20px;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: -20px;
+}
+
+.illus3 {
+  position: absolute;
+  right: 0;
+  top: -120px;
+}
+
+button:hover {
+  background-color: #008552;
+}
