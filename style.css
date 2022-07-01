@@ -342,3 +342,7 @@ input {
   right: 0;
   top: -120px;
 }
+
+button:hover {
+  background-color: #008552;
+}
