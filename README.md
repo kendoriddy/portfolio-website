@@ -22,14 +22,14 @@ To get a local copy up and running:
 👤 **Kehinde Ridwan Onifade**
 
 - Github: [@kendoriddy](https://github.com/kendoriddy)
-- Twitter: [@RideOnOne09](https://twitter.com/zieecodes)
+- Twitter: [@RideOnOne09](https://twitter.com/rideonone09)
 - LinkedIn: [Kehinde Ridwan Onifade](https://www.linkedin.com/in/kehindeonifade/)
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page.](https://github.com/zieeco/portfolio/issues)
+Feel free to check the [issues page.](https://github.com/kendoriddy/portfolio-website/issues)
 
 ## Show your support
 
