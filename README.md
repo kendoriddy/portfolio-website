@@ -1,5 +1,7 @@
 # portfolio-website
 
+This project is my personal portfolio website built at Microverse to showcase my projects
+
 ## Built With
 
 - HTML
