@@ -1,6 +1,6 @@
 # portfolio-website
 
-This project is my personal portfolio website built at Microverse to showcase my projects and skills
+>This project is my personal portfolio website built at Microverse to showcase my projects and skills
 
 ## Built With
 
