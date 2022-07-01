@@ -276,7 +276,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.contact p {
+.contact h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -326,6 +326,10 @@ input {
 .footer {
   text-align: center;
   margin-top: 50px;
+}
+
+.footer-links {
+  margin-top: -20px;
 }
 
 .footer p {
