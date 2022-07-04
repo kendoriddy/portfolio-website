@@ -151,8 +151,6 @@ header {
 }
 
 .card-items ul {
-  display: flex;
-  justify-content: space-around;
   list-style: none;
   font-size: 15px;
   padding: 20px 0;
@@ -162,6 +160,8 @@ header {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
+  float: left;
+  margin-left: 5px;
 }
 
 .card-items button {
