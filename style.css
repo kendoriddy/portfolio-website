@@ -349,6 +349,13 @@ input {
   text-align: center;
   color: #42526e;
   margin-top: -20px;
+  margin-bottom: 260px;
+}
+
+.shape {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .illus3 {
