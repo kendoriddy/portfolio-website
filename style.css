@@ -154,13 +154,13 @@ header {
   list-style: none;
   font-size: 15px;
   padding: 20px 0;
+  display: flex;
 }
 
 .card-items ul li {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
-  float: left;
   margin-left: 5px;
 }
 
