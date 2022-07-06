@@ -301,10 +301,15 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 input {
   height: 50px;
+  color: #6b778c;
 }
 
 .form-action {
@@ -362,4 +367,20 @@ button:hover {
 button:focus {
   background: #008552;
   border-radius: 4px;
+}
+
+textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #091e42;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  color: #091e42;
 }
