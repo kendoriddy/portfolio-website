@@ -107,7 +107,6 @@ header {
 
 .design-images {
   position: relative;
-  display: initial;
   width: 100vw;
 }
 
@@ -418,6 +417,10 @@ button:hover {
 button:focus {
   background: #008552;
   border-radius: 4px;
+}
+
+.line {
+  display: none;
 }
 
 @media (min-width: 768px) {
