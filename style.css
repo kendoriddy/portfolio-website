@@ -41,6 +41,8 @@ header {
 .headline {
   text-align: center;
   background-image: url("assets/images/bg-stripes.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .introduction {
@@ -61,6 +63,9 @@ header {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-links li {
@@ -449,6 +454,12 @@ button:focus {
     display: none;
   }
 
+  .contain {
+    background-image: url(assets/images/all.svg);
+    background-position: center;
+    height: 900px;
+  }
+
   .headline {
     background-image: url();
   }
@@ -461,11 +472,15 @@ button:focus {
   }
 
   .introduction {
-    margin-top: 120px;
+    margin-top: 20px;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 60px;
+  }
+
+  .introduction h2 {
+    margin-top: 10px;
   }
 
   .support-text {
@@ -485,7 +500,7 @@ button:focus {
   }
 
   .work {
-    margin-top: 560px;
+    margin-top: 70px;
     text-align: center;
   }
 
