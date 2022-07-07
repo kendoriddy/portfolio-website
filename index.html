@@ -4,69 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Kehinde Onifade Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <a href="#" class="welcome">Welcome</a>
-        <nav class="hamburger">
-          <img src="assets/images/burger.png" alt="nav" />
-        </nav>
-      </header>
+      <div class="contain">
+        <header class="header">
+          <a href="#" class="welcome">Welcome</a>
 
-      <div class="design-container">
-        <img class="des1" src="assets/images/des1.png" alt="" />
-        <img class="des2" src="assets/images/des2.png" alt="" />
-        <img class="des3" src="assets/images/des3.png" alt="" />
-        <img class="des4" src="assets/images/des4.png" alt="" />
-        <img class="des5" src="assets/images/des5.png" alt="" />
-      </div>
-
-      <section class="headline">
-        <h1 class="introduction">
-          Hey there. I’m Kehinde <br /><span> I’m a software developer</span>
-        </h1>
-
-        <p class="support-text">
-          I can help you build a product , feature or website Look through some of my work and
-          experience! If you like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <div class="social-links">
           <ul>
-            <li>
-              <a href="https://twitter.com/RideOnOne09"
-                ><img src="assets/images/twitter.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/kehindeonifade/"
-                ><img src="assets/images/linkedin.svg" alt="linkedIn"
-              /></a>
-            </li>
-            <li>
-              <a href="https://medium.com/@onifkay"
-                ><img src="assets/images/medium.svg" alt="medium"
-              /></a>
-            </li>
-            <li>
-              <a href="https://github.com/kendoriddy"
-                ><img src="assets/images/github.svg" alt="github"
-              /></a>
-            </li>
-            <li>
-              <a href="https://angel.co"
-                ><img src="assets/images/angellist.svg" alt="angellist"
-              /></a>
-            </li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
           </ul>
+
+          <nav class="hamburger">
+            <img src="assets/images/burger.png" alt="nav" />
+          </nav>
+        </header>
+
+        <div class="design-container">
+          <img class="des1" src="assets/images/des1.png" alt="" />
+          <img class="des2" src="assets/images/des2.png" alt="" />
+          <img class="des3" src="assets/images/des3.png" alt="" />
+          <img class="des4" src="assets/images/des4.png" alt="" />
+          <img class="des5" src="assets/images/des5.png" alt="" />
         </div>
-      </section>
-      <div class="down-arrow">
-        <img src="assets/images/arrow.svg" alt="" />
+
+        <section class="headline">
+          <h1 class="introduction">
+            Hey there. I’m Kehinde <br /><span> I’m a software developer</span>
+          </h1>
+
+          <p class="support-text">
+            I can help you build a product , feature or website Look through some of my work and
+            experience! If you like what you see and have a project you need coded, don’t hestiate
+            to contact me.
+          </p>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="https://twitter.com/RideOnOne09"
+                  ><img src="assets/images/twitter.svg" alt="twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kehindeonifade/"
+                  ><img src="assets/images/linkedin.svg" alt="linkedIn"
+                /></a>
+              </li>
+              <li>
+                <a href="https://medium.com/@onifkay"
+                  ><img src="assets/images/medium.svg" alt="medium"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/kendoriddy"
+                  ><img src="assets/images/github.svg" alt="github"
+                /></a>
+              </li>
+              <li>
+                <a href="https://angel.co"
+                  ><img src="assets/images/angellist.svg" alt="angellist"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="down-arrow">
+          <img src="assets/images/arrow.svg" alt="" />
+        </div>
       </div>
 
       <section class="work">
@@ -153,6 +165,10 @@
           <img class="illus1" src="assets/images/illus1.svg" alt="" />
           <img class="illus2" src="assets/images/illus2.svg" alt="" />
         </div>
+        <div class="design-images2">
+          <img class="about1" src="assets/images/about1.svg" alt="" />
+          <img class="about2" src="assets/images/about2.svg" alt="" />
+        </div>
         <h2>About me</h2>
         <p>
           I can help you build a product , feature or website Look through some of my work and
@@ -204,30 +220,40 @@
       </section>
 
       <footer class="contact">
-        <h2>
-          I'm always interested in hearing about new projects, so if you'd like to chat please get
-          in touch.
-        </h2>
+        <div class="contact-form">
+          <h2>
+            I'm always interested in hearing about new projects, so if you'd like to chat please get
+            in touch.
+          </h2>
 
-        <form action="https://formspree.io/f/xlezyjjy" method="post" class="form-action">
-          <input type="text" name="name" placeholder="Full name" maxlength="30" required />
-          <input type="email" name="email" id="email" placeholder="Email address" required />
-          <textarea
-            name="message"
-            placeholder="Enter text here"
-            id="message"
-            cols="30"
-            rows="10"
-            maxlength="500"
-            required
-          ></textarea>
+          <form action="https://formspree.io/f/xlezyjjy" method="post" class="form-action">
+            <input type="text" name="name" placeholder="Full name" maxlength="30" required />
+            <input type="email" name="email" id="email" placeholder="Email address" required />
+            <textarea
+              name="message"
+              placeholder="Enter text here"
+              id="message"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              required
+            ></textarea>
 
-          <button type="submit">Get in touch</button>
-        </form>
+            <button type="submit">Get in touch</button>
+          </form>
+        </div>
+        <div class="design-images3">
+          <img class="foot1" src="assets/images/foot.svg" alt="" />
+          <img class="foot2" src="assets/images/foot4.svg" alt="" />
+          <img class="foot3" src="assets/images/foot3.svg" alt="" />
+        </div>
 
         <div class="footer">
           <div class="design-images">
             <img class="illus3" src="assets/images/illustration-contact-form.svg" alt="" />
+          </div>
+          <div class="line">
+            <hr />
           </div>
           <div class="social-links footer-links">
             <ul>
