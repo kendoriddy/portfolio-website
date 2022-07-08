@@ -622,11 +622,6 @@ button:focus {
     align-items: flex-start;
   }
 
-  .contact-form h2:hover {
-    transform: translate(42px, 18px);
-    /* transform: scale(1); */
-  }
-
   input {
     width: 60vw;
     height: 40px;
