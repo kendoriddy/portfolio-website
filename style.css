@@ -140,6 +140,15 @@ header {
   text-align: center;
 }
 
+.work h2 {
+  transition: 2s ease-in-out;
+}
+
+.work:hover {
+  color: #008552;
+  font-size: 30px;
+}
+
 .grid-container {
   width: 90vw;
   margin: 40px auto;
@@ -220,6 +229,22 @@ header {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 20px;
+  transition: transform 3s;
+}
+
+.contact h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0 15px;
+  color: #172b4d;
+  margin-bottom: 40px;
+}
+
+.about h2:hover {
+  transform: rotate(360deg);
 }
 
 .about p {
@@ -308,17 +333,6 @@ header {
 .contact {
   display: flex;
   flex-direction: column;
-}
-
-.contact h2 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  padding: 0 15px;
-  color: #172b4d;
-  margin-bottom: 40px;
 }
 
 input,
