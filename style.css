@@ -229,6 +229,11 @@ header {
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 20px;
+  transition: transform 3s;
+}
+
+.about h2:hover {
+  transform: rotate(360deg);
 }
 
 .about p {
