@@ -140,6 +140,15 @@ header {
   text-align: center;
 }
 
+.work h2 {
+  transition: 2s ease-in-out;
+}
+
+.work:hover {
+  color: #008552;
+  font-size: 30px;
+}
+
 .grid-container {
   width: 90vw;
   margin: 40px auto;
@@ -611,6 +620,11 @@ button:focus {
   .contact-form {
     display: flex;
     align-items: flex-start;
+  }
+
+  .contact-form h2:hover {
+    transform: translate(42px, 18px);
+    /* transform: scale(1); */
   }
 
   input {
