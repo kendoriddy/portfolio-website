@@ -12,6 +12,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #28352f;
   text-decoration: none;
@@ -438,7 +442,7 @@ button:focus {
   border-radius: 4px;
 }
 
-.line {
+hr {
   display: none;
 }
 
@@ -459,7 +463,11 @@ button:focus {
     list-style: none;
   }
 
-  .header a,
+  .header ul li {
+    transition: all 0.1s ease-out;
+  }
+
+  .welcome,
   .hamburger {
     display: none;
   }
@@ -510,7 +518,7 @@ button:focus {
   }
 
   .social-links {
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .work {
@@ -604,6 +612,10 @@ button:focus {
     letter-spacing: 0.03em;
   }
 
+  .header ul li:hover {
+    font-size: 20px;
+  }
+
   .contact {
     width: 90vw;
     margin-left: 5vw;
@@ -682,5 +694,6 @@ button:focus {
     bottom: 30px;
     width: 100vw;
     margin-left: -70px;
+    display: block;
   }
 }
