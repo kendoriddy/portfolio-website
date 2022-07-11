@@ -7,6 +7,10 @@
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://kendoriddy.github.io/portfolio-website/)
+
 ## Getting Started
 
 To get a local copy up and running:
