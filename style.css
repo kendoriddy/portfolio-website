@@ -209,7 +209,6 @@ header {
 .card {
   background: #ebf0ee;
   border-radius: 8px;
-  background-image: url(assets/images/placeholder.png) cover no-repeat;
   height: 500px;
   width: 100%;
   display: flex;
@@ -222,7 +221,6 @@ header {
   background: #fff;
   border-radius: 8px;
   position: relative;
-  height: fit-content;
   width: 100%;
   padding: 10px;
   border: 1px solid #d0d9d4;
