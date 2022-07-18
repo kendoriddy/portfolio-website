@@ -14,26 +14,28 @@
   <body>
     <div class="container">
       <div class="contain">
-        <div class="mobile-menu">
-          <img id="close-icon-btn" src="./assets/images/close-icon.svg" alt="close-icon">
-          <ul>
+        <div id="mobile-menu" class="mobile-menu">
+          <img id="close-icon-btn" src="./assets/images/close-icon.svg" alt="close-icon" />
+          <ul id="mobile-menu-list">
             <li><a href="#work">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <header class="header">
-          <a href="#" class="welcome">Welcome</a>
+        <header>
+          <div class="header">
+            <a href="#" class="welcome">Welcome</a>
 
-          <ul>
-            <li><a href="#work">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <ul>
+              <li><a href="#work">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
 
-          <nav class="hamburger">
-            <img src="assets/images/burger.png" alt="nav-hamburger" />
-          </nav>
+            <nav class="hamburger" id="hamburger">
+              <img src="assets/images/burger.png" alt="nav-hamburger" />
+            </nav>
+          </div>
         </header>
 
         <div class="design-container">
@@ -238,7 +240,14 @@
 
           <form action="https://formspree.io/f/xlezyjjy" method="post" class="form-action">
             <label for="name" hidden>Name</label>
-            <input type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
             <label for="email" hidden>Email</label>
             <input type="email" name="email" id="email" placeholder="Email address" required />
             <label for="message" hidden>Message</label>
@@ -263,7 +272,11 @@
 
         <div class="footer">
           <div class="design-images">
-            <img class="illus3" src="assets/images/illustration-contact-form.svg" alt="background-image" />
+            <img
+              class="illus3"
+              src="assets/images/illustration-contact-form.svg"
+              alt="background-image"
+            />
           </div>
           <div class="line">
             <hr />
