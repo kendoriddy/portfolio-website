@@ -1,4 +1,4 @@
-let hamburger = document.querySelector(".hamburger");
+const hamburger = document.querySelector(".hamburger");
 
 hamburger.addEventListener("click", function() {
     

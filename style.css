@@ -25,6 +25,35 @@ a {
   display: none;
 }
 
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+#close-icon-btn {
+  float: right;
+  margin-right: 30px;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.mobile-menu ul li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  margin-bottom: 40px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -449,6 +478,10 @@ hr {
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .header {
