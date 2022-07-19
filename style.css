@@ -525,8 +525,8 @@ hr {
 .mobile-close-button {
   cursor: pointer;
   position: fixed;
-  top: 9%;
-  right: 12%;
+  top: 56px;
+  right: 48px;
 }
 
 .modal-head {
