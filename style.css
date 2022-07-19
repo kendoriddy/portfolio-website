@@ -598,6 +598,7 @@ hr {
   padding: 12px;
   border-radius: 4px;
   background: #36b37f;
+  font-size: 13px;
 }
 
 .modal-links ul li a {
@@ -690,6 +691,72 @@ hr {
   .work {
     margin-top: 70px;
     text-align: center;
+  }
+
+  .popup {
+    padding-top: 40px;
+  }
+
+  .work-modal {
+    width: 70vw;
+    margin: 40px auto;
+  }
+
+  .mobile-close-button {
+    display: none;
+  }
+
+  .close-button {
+    display: block;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    left: 43%;
+    position: relative;
+    right: 100px;
+  }
+
+  .mobile-project-image {
+    display: none;
+  }
+
+  .project-image {
+    display: block;
+  }
+
+  .project-image img {
+    max-width: 66vw;
+  }
+
+  .modal-head {
+    gap: 50px;
+    margin-bottom: 20px;
+    width: 94%;
+  }
+
+  .modal-head h3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 50px;
+  }
+
+  .modal-head ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .modal-head ul li {
+    width: 140px;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    background: rgb(54, 179, 127);
+  }
+
+  .modal-head ul li a {
+    color: rgb(255, 255, 255);
   }
 
   .indicator {
