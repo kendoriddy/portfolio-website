@@ -498,6 +498,7 @@ hr {
   top: 0;
   height: 100%;
   z-index: 1001;
+  /* display: none; */
 }
 
 .work-modal {
@@ -511,6 +512,7 @@ hr {
   width: 90vw;
   height: 90vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .close-button {
@@ -757,6 +759,27 @@ hr {
 
   .modal-head ul li a {
     color: rgb(255, 255, 255);
+  }
+
+  .see-image {
+    font-size: 10px;
+  }
+
+  .outlinks {
+    margin-left: 5px;
+  }
+
+  .modal-links {
+    display: none;
+  }
+
+  .mobile-skillset {
+    margin-left: 50px;
+  }
+
+  .modal-description p {
+    margin-left: 50px;
+    width: 90%;
   }
 
   .indicator {
