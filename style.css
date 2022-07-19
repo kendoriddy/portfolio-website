@@ -571,7 +571,42 @@ hr {
   display: none;
 }
 
+.modal-description p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  text-align: left;
+}
 
+.modal-links {
+  margin-top: 10px;
+}
+
+.modal-links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 12px;
+  text-align: center;
+}
+
+.modal-links ul li {
+  width: 180px;
+  padding: 12px;
+  border-radius: 4px;
+  background: #36b37f;
+}
+
+.modal-links ul li a {
+  color: #fff;
+}
+
+.outlinks {
+  height: 20px;
+}
 
 @media (min-width: 768px) {
   body {
