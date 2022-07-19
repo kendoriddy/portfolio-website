@@ -95,18 +95,53 @@
 
       <section class="work" id="work">
         <h2>My Recent Works</h2>
-        <img src="assets/images/Indicator.png" alt="indicator" />
+        <img class="indicator" src="assets/images/Indicator.png" alt="indicator" />
         <div class="grid-container">
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
+          <div class="popup">
+            <div class="work-modal" id="work-modal">
+              <div id="close-button" class="close-button">
+                <img src="./assets/images/close-bg.svg" alt="close-icon" />
+              </div>
+              <div class="project-image-container">
+                <div id="mobile-close-button" class="mobile-close-button">
+                  <img src="./assets/images/cancel-white.svg" alt="close-icon" />
+                </div>
+                <div class="project-image">
+                  <img src="./assets/images/project-image.png" alt="project-image" />
+                </div>
+                <div class="mobile-project-image">
+                  <img src="./assets/images/mobile-project-image.png" alt="project-image" />
+                </div>
+              </div>
+              <div class="modal-head">
+                <h3>Keeping track of hundreds of components</h3>
+                <ul>
+                  <li>
+                    <a href="#" target="_blank"
+                      >See Live <img src="./assets/images/live.svg" alt="project-image"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"
+                      >See Source <img src="./assets/images/github-white.svg" alt="project-image"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mobile-skillset">
+                <p>Ruby on rails</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              </div>
+              <div class="skillset">
+                <p>Codekit</p>
+                <p>Github</p>
+                <p>JavaScript</p>
+                <p>Bootstrap</p>
+                <p>Terminal</p>
+                <p>Codepen</p>
+              </div>
+              
             </div>
           </div>
           <div class="card">
@@ -118,7 +153,20 @@
                 <li>JavaScript</li>
                 <li>html</li>
               </ul>
-              <button type="button">See Project</button>
+              <button class="project-button" id="project-1-button" type="button">See Project</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-items">
+              <h5>Multi-Post Stories Gain+Glory</h5>
+              <ul>
+                <li>Ruby on rails</li>
+                <li>css</li>
+                <li>JavaScript</li>
+                <li>html</li>
+              </ul>
+              <button class="project-button" id="project-2-button" type="button">See Project</button>
             </div>
           </div>
           <div class="card">
@@ -130,7 +178,7 @@
                 <li>JavaScript</li>
                 <li>html</li>
               </ul>
-              <button type="button">See Project</button>
+              <button class="project-button" id="project-3-button" type="button">See Project</button>
             </div>
           </div>
           <div class="card">
@@ -142,7 +190,7 @@
                 <li>JavaScript</li>
                 <li>html</li>
               </ul>
-              <button type="button">See Project</button>
+              <button class="project-button" id="project-4-button" type="button">See Project</button>
             </div>
           </div>
           <div class="card">
@@ -154,7 +202,7 @@
                 <li>JavaScript</li>
                 <li>html</li>
               </ul>
-              <button type="button">See Project</button>
+              <button class="project-button" id="project-5-button" type="button">See Project</button>
             </div>
           </div>
           <div class="card">
@@ -166,7 +214,7 @@
                 <li>JavaScript</li>
                 <li>html</li>
               </ul>
-              <button type="button">See Project</button>
+              <button class="project-button" id="project-1-button" type="button">See Project</button>
             </div>
           </div>
         </div>

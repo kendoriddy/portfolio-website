@@ -489,6 +489,90 @@ hr {
   display: none;
 }
 
+.popup {
+  width: 100vw;
+  background: #c1c7d0;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1001;
+}
+
+.work-modal {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ebecf0;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.close-button {
+  display: none;
+}
+
+.project-image {
+  display: none;
+}
+
+.mobile-close-button {
+  cursor: pointer;
+  position: fixed;
+  top: 9%;
+  right: 12%;
+}
+
+.modal-head {
+  display: flex;
+}
+
+.modal-head h3 {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.mobile-skillset {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.mobile-skillset p {
+  padding: 8px 12px;
+  width: fit-content;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.skillset {
+  display: none;
+}
+
+.modal-head ul {
+  list-style: none;
+  display: none;
+}
+
+
+
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -573,7 +657,7 @@ hr {
     text-align: center;
   }
 
-  .work img {
+  .indicator {
     display: none;
   }
 
