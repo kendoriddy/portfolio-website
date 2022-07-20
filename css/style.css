@@ -628,6 +628,25 @@ hr {
   height: 20px;
 }
 
+small {
+  color: #dd1327;
+  display: block;
+  z-index: 2;
+  font-weight: 500;
+  position: relative;
+  top: -10px;
+}
+
+/* input error */
+input.error {
+  border: 1px solid #ff6163;
+}
+
+/* input success */
+input.success {
+  border: 1px solid #36b37e;
+}
+
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -973,5 +992,9 @@ hr {
     width: 100vw;
     margin-left: -70px;
     display: block;
+  }
+
+  small {
+    top: -95px;
   }
 }
