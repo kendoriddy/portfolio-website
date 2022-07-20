@@ -8,12 +8,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Kehinde Onifade Portfolio</title>
   </head>
   <body>
     <div class="container">
+      <!-- Introduction section -->
       <div class="contain">
+        <!-- Header and nav -->
         <div id="mobile-menu" class="mobile-menu">
           <img id="close-icon-btn" src="./assets/images/close-icon.svg" alt="close-icon" />
           <ul id="mobile-menu-list">
@@ -37,6 +39,7 @@
             </nav>
           </div>
         </header>
+        <!-- End of header -->
 
         <div class="design-container">
           <img class="des1" src="./assets/images/des1.png" alt="background-image" />
@@ -46,6 +49,7 @@
           <img class="des5" src="./assets/images/des5.png" alt="background-image" />
         </div>
 
+        <!-- Intro section -->
         <section class="headline">
           <h1 class="introduction">
             Hey there. I’m Kehinde <br /><span> I’m a software developer</span>
@@ -86,6 +90,7 @@
             </ul>
           </div>
         </section>
+        <!-- Down arrow -->
         <div class="down-arrow">
           <a href="#work">
             <img src="assets/images/arrow.svg" alt="arrow" />
@@ -93,85 +98,16 @@
         </div>
       </div>
 
+      <!-- Work section -->
       <section class="work" id="work">
         <h2>My Recent Works</h2>
-        <img src="assets/images/Indicator.png" alt="indicator" />
+        <img class="indicator" src="assets/images/Indicator.png" alt="indicator" />
         <div class="grid-container">
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button type="button">See Project</button>
-            </div>
-          </div>
+          
         </div>
       </section>
 
+      <!-- About section -->
       <section class="about" id="about">
         <div class="design-images">
           <img class="illus1" src="assets/images/illus1.svg" alt="background-image" />
@@ -190,6 +126,7 @@
         <button type="button">Get My Resume</button>
       </section>
 
+      <!-- Skills section -->
       <section class="grid-container">
         <div class="skill-card">
           <img src="assets/images/icon-languages.svg" alt="skill-thumbnail" />
@@ -231,6 +168,7 @@
         </div>
       </section>
 
+      <!-- Footer -->
       <footer class="contact" id="contact">
         <div class="contact-form">
           <h2>
@@ -316,7 +254,9 @@
           <img src="assets/images/shape.png" alt="horizontal-line" />
         </div>
       </footer>
+      <section class="popups" id="popups"></section>
     </div>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/work.js" type="module"></script>
   </body>
 </html>
