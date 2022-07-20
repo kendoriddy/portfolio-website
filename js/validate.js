@@ -8,3 +8,10 @@ function displayMessage(input, message, type) {
   return type;
 }
 
+function successAlert(input) {
+  return displayMessage(input, "", true);
+}
+
+function errorAlert(input, message) {
+  return displayMessage(input, message, false);
+}
