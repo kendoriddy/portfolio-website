@@ -9,7 +9,7 @@ function displayMessage(input, message, type) {
 }
 
 function successAlert(input) {
-  return displayMessage(input, "", true);
+  return displayMessage(input, '', true);
 }
 
 function errorAlert(input, message) {
@@ -24,11 +24,11 @@ function validateEmail(input, invalidMsg) {
   successAlert(input);
   return true;
 }
-  
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailIsValid = validateEmail(form.elements.email, EMAIL_INVALID);
-  
+
   if (emailIsValid) {
     form.submit();
   }
