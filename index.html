@@ -103,109 +103,7 @@
         <h2>My Recent Works</h2>
         <img class="indicator" src="assets/images/Indicator.png" alt="indicator" />
         <div class="grid-container">
-          <!-- Pop Up modal  -->
-          <div class="popup" id="popup">
-            <div class="work-modal" id="work-modal">
-              <div id="close-button" class="close-button close-btn">
-                <img src="./assets/images/close-bg.svg" alt="close-icon" />
-              </div>
-              <div class="project-image-container">
-                <div id="mobile-close-button" class="mobile-close-button close-btn">
-                  <img src="./assets/images/cancel-white.svg" alt="close-icon" />
-                </div>
-                <div class="project-image">
-                  <img src="./assets/images/project-image.png" alt="project-image" />
-                </div>
-                <div class="mobile-project-image">
-                  <img src="./assets/images/mobile-project-image.png" alt="project-image" />
-                </div>
-              </div>
-              <div class="modal-head">
-                <h3>Keeping track of hundreds of components</h3>
-                <ul>
-                  <li>
-                    <a href="#" target="_blank"></a>
-                      <span>See Live</span>
-                      <img class="outlinks" src="./assets/images/live.svg" alt="project-image"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      ><span>See Source</span>
-                      <img
-                        class="outlinks"
-                        src="./assets/images/github-white.svg"
-                        alt="project-image"
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="mobile-skillset">
-                <p>Ruby on rails</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-              </div>
-              <div class="skillset">
-                <p>Codekit</p>
-                <p>Github</p>
-                <p>JavaScript</p>
-                <p>Bootstrap</p>
-                <p>Terminal</p>
-                <p>Codepen</p>
-              </div>
-              <div class="modal-description">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur inventore
-                  sit itaque nihil accusamus dicta, perspiciatis aperiam mollitia libero dolores
-                  molestiae iste quo facilis rem repellendus adipisci aut provident laboriosam?
-                  Corrupti, perferendis alias animi officia ut inventore dignissimos, fugiat nostrum
-                  adipisci pariatur nam eaque a assumenda temporibus voluptate amet voluptates!
-                  Laboriosam fuga neque molestias quam et impedit mollitia quod maiores
-                </p>
-              </div>
-              <div class="modal-links">
-                <ul>
-                  <li>
-                    <a href="#" target="_blank"
-                      >See Live
-                      <img class="outlinks" src="./assets/images/outlink.png" alt="project-image"
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      >See Source
-                      <img
-                        class="outlinks"
-                        src="./assets/images/github-white.svg"
-                        alt="project-image"
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- End of Pop Up modal -->
-
-          <!-- My Projects -->
-          <div class="card">
-            <div class="card-items">
-              <h5>Multi-Post Stories Gain+Glory</h5>
-              <ul>
-                <li>Ruby on rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-              </ul>
-              <button
-                class="project-button"
-                data-target="#popup"
-                id="project-1-button"
-                type="button"
-              >
-                See Project
-              </button>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -356,8 +254,9 @@
           <img src="assets/images/shape.png" alt="horizontal-line" />
         </div>
       </footer>
+      <section class="popups" id="popups"></section>
     </div>
     <script src="./js/script.js"></script>
-    <script src="./js/modal.js"></script>
+    <script src="./js/work.js" type="module"></script>
   </body>
 </html>
