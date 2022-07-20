@@ -508,7 +508,7 @@ hr {
   border-radius: 8px;
   margin-top: 30px;
   margin-left: 15vw;
-    width: 70vw;
+  width: 70vw;
   height: 90vh;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -519,6 +519,7 @@ hr {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
