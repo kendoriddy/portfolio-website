@@ -15,3 +15,21 @@ function successAlert(input) {
 function errorAlert(input, message) {
   return displayMessage(input, message, false);
 }
+
+function validateEmail(input, invalidMsg) {
+  const email = input.value.trim();
+  if (email !== email.toLowerCase()) {
+    return errorAlert(input, invalidMsg);
+  }
+  successAlert(input);
+  return true;
+}
+  
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const emailIsValid = validateEmail(form.elements.email, EMAIL_INVALID);
+  
+  if (emailIsValid) {
+    form.submit();
+  }
+});
