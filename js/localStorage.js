@@ -31,3 +31,9 @@ inputList.forEach((value) => {
     populateStorage();
   };
 });
+
+if (!localStorage.getItem('form-data')) {
+  populateStorage();
+} else {
+  getData();
+}
