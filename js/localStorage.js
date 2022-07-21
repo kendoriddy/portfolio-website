@@ -20,3 +20,14 @@ function getData() {
   document.getElementById('email').value = storageData.email;
   document.getElementById('message').value = storageData.message;
 }
+
+const inputList = [];
+inputList.push(document.getElementById('name'));
+inputList.push(document.getElementById('email'));
+inputList.push(document.getElementById('message'));
+
+inputList.forEach((value) => {
+  value.onchange = function inputValue() {
+    populateStorage();
+  };
+});
