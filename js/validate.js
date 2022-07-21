@@ -31,5 +31,6 @@ form.addEventListener('submit', (e) => {
 
   if (emailIsValid) {
     form.submit();
+    localStorage.clear();
   }
 });
