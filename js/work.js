@@ -43,22 +43,22 @@ const displayPopup = (data) => {
           <img src="./assets/images/cancel-white.svg" alt="close-icon" />
         </div>
         <div class="desktop-project-image">
-          <img src="./assets/images/project-image.png" alt="project-image" />
+          <img src="./assets/images/shot.png" alt="project-image" />
         </div>
         <div class="mobile-project-image">
-          <img src="./assets/images/mobile-project-image.png" alt="project-image" />
+          <img src="./assets/images/shot.png" alt="project-image" />
         </div>
       </div>
       <div class="modal-head">
         <h3>${data.projectName}</h3>
         <ul>
           <li>
-            <a href="#" target="_blank"
+            <a href="https://kendoriddy.github.io/to-do-list/" target="_blank"
               > <span>See Live</span> <img class="outlinks" src="./assets/images/live.svg" alt="project-image"
             /></a>
           </li>
           <li>
-            <a href="#" target="_blank"
+            <a href="https://github.com/kendoriddy/to-do-list" target="_blank"
               ><span>See Source</span> <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image"
             /></a>
           </li>
