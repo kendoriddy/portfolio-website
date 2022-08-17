@@ -1,7 +1,7 @@
 const projectData = [
   {
-    snapshot: './assets/images/mobile-project-image.png',
-    desktopSnapshot: './assets/images/project-image.png',
+    snapshot: './assets/images/shot2.png',
+    desktopSnapshot: './assets/images/shot.png',
     projectName: 'Multi-Post Stories Gain+Glory 1',
     technologies: ['Ruby on rails', 'JavaScript', 'CSS', 'HTML'],
     description:
