@@ -43,22 +43,22 @@ const displayPopup = (data) => {
           <img src="./assets/images/cancel-white.svg" alt="close-icon" />
         </div>
         <div class="desktop-project-image">
-          <img src="./assets/images/shot.png" alt="project-image" />
+          <img src=${data.snapshot} alt="project-image" />
         </div>
         <div class="mobile-project-image">
-          <img src="./assets/images/shot.png" alt="project-image" />
+          <img src=${data.snapshot} alt="project-image" />
         </div>
       </div>
       <div class="modal-head">
         <h3>${data.projectName}</h3>
         <ul>
           <li>
-            <a href="https://kendoriddy.github.io/to-do-list/" target="_blank"
+            <a href=${data.live} target="_blank"
               > <span>See Live</span> <img class="outlinks" src="./assets/images/live.svg" alt="project-image"
             /></a>
           </li>
           <li>
-            <a href="https://github.com/kendoriddy/to-do-list" target="_blank"
+            <a href=${data.source} target="_blank"
               ><span>See Source</span> <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image"
             /></a>
           </li>
@@ -84,11 +84,11 @@ const displayPopup = (data) => {
       <div class="modal-links">
         <ul>
           <li>
-            <a href="#" target="_blank">See Live
+            <a href=${data.live} target="_blank">See Live
               <img class="outlinks" src="./assets/images/outlink.png" alt="project-image" /></a>
           </li>
           <li>
-            <a href="#" target="_blank">See Source
+            <a href=${data.source} target="_blank">See Source
               <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image" /></a>
           </li>
         </ul>
