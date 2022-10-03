@@ -210,6 +210,7 @@ header {
   background: #ebf0ee;
   border-radius: 8px;
   width: 100%;
+  height: max-content;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -540,9 +541,8 @@ hr {
 
 .mobile-close-button {
   cursor: pointer;
-  position: fixed;
-  top: 56px;
-  right: 48px;
+  background-color: grey;
+  float: right;
 }
 
 .modal-head {
