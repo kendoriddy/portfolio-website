@@ -48,11 +48,11 @@ const projectData = [
   {
     snapshot: './assets/images/asos.png',
     projectName: 'ASOS Birthday Tracker',
-    technologies: ['React', 'JavaScript', 'HTML'],
+    technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
     live: 'https://asostracker.netlify.app/',
     source: 'https://github.com/kendoriddy/asos-birthday-tracker',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eum, sequi esse, sapiente pariatur quos sit nisi totam maxime tempore delectus nostrum commodi iure doloribus at doloremque eligendi ullam incidunt Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eum, sequi esse, sapiente pariatur quos sit nisi totam maxime tempore delectus nostrum commodi iure doloribus at doloremque eligendi ullam incidunt',
+      'I created a webapp that tracks the birthdays of my secondary school classmates.',
   },
 ];
 

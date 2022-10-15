@@ -223,6 +223,7 @@ header {
   justify-content: center;
   align-items: flex-end;
   border: 0;
+  overflow-x: hidden;
 }
 
 .card-items {
@@ -249,6 +250,8 @@ header {
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .card-items ul li {
