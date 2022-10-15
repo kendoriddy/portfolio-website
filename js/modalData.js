@@ -46,7 +46,7 @@ const projectData = [
     'Stuk-Mart is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the Financial modelling API. It is built using React, Redux, and React-bootstrap, Skeleton Loader, Recharts.',
   },
   {
-    snapshot: '../assets/images/asos.png',
+    snapshot: './assets/images/asos.png',
     projectName: 'ASOS Birthday Tracker',
     technologies: ['React', 'JavaScript', 'HTML'],
     live: 'https://asostracker.netlify.app/',

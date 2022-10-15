@@ -12,6 +12,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +23,10 @@ html {
 a {
   color: #28352f;
   text-decoration: none;
+}
+
+.container {
+  width: 100vw;
 }
 
 .background-stripe {
