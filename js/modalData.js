@@ -30,7 +30,7 @@ const projectData = [
   {
     snapshot: './assets/images/pictury.png',
     projectName: 'Pictury',
-    technologies: ['React', 'JavaScript', 'Pixabay', 'Tailwind CSS'],
+    technologies: ['React', 'JavaScript', 'API', 'Tailwind CSS'],
     live: 'https://pictureworld.netlify.app/',
     source: 'https://github.com/kendoriddy/picture-world',
     description:
@@ -46,13 +46,13 @@ const projectData = [
     'Stuk-Mart is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the Financial modelling API. It is built using React, Redux, and React-bootstrap, Skeleton Loader, Recharts.',
   },
   {
-    snapshot: '../assets/images/asos.png',
+    snapshot: './assets/images/asos.png',
     projectName: 'ASOS Birthday Tracker',
-    technologies: ['React', 'JavaScript', 'HTML'],
+    technologies: ['React', 'JavaScript', 'Router', 'CSS'],
     live: 'https://asostracker.netlify.app/',
     source: 'https://github.com/kendoriddy/asos-birthday-tracker',
     description:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eum, sequi esse, sapiente pariatur quos sit nisi totam maxime tempore delectus nostrum commodi iure doloribus at doloremque eligendi ullam incidunt Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eum, sequi esse, sapiente pariatur quos sit nisi totam maxime tempore delectus nostrum commodi iure doloribus at doloremque eligendi ullam incidunt',
+      'I created a webapp that tracks the birthdays of my secondary school classmates.',
   },
 ];
 

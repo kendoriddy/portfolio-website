@@ -12,6 +12,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,6 +23,10 @@ html {
 a {
   color: #28352f;
   text-decoration: none;
+}
+
+.container {
+  width: 100vw;
 }
 
 .background-stripe {
@@ -215,6 +223,7 @@ header {
   justify-content: center;
   align-items: flex-end;
   border: 0;
+  overflow-x: hidden;
 }
 
 .card-items {
@@ -241,6 +250,8 @@ header {
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .card-items ul li {
@@ -248,6 +259,7 @@ header {
   background: #ebf0ee;
   border-radius: 4px;
   margin-left: 5px;
+  font-size: 12px;
 }
 
 .card-items button {
@@ -331,12 +343,17 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 0;
+}
+
+.skill-items {
+  display: flex;
+  flex-direction: column;
 }
 
 .skill-items img {
@@ -569,6 +586,7 @@ hr {
   color: #3a4a42;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
 }
