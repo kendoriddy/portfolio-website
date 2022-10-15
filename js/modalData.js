@@ -30,7 +30,7 @@ const projectData = [
   {
     snapshot: './assets/images/pictury.png',
     projectName: 'Pictury',
-    technologies: ['React', 'JavaScript', 'Pixabay', 'Tailwind CSS'],
+    technologies: ['React', 'JavaScript', 'API', 'Tailwind CSS'],
     live: 'https://pictureworld.netlify.app/',
     source: 'https://github.com/kendoriddy/picture-world',
     description:
@@ -48,7 +48,7 @@ const projectData = [
   {
     snapshot: './assets/images/asos.png',
     projectName: 'ASOS Birthday Tracker',
-    technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
+    technologies: ['React', 'JavaScript', 'Router', 'CSS'],
     live: 'https://asostracker.netlify.app/',
     source: 'https://github.com/kendoriddy/asos-birthday-tracker',
     description:
