@@ -586,6 +586,7 @@ hr {
   color: #3a4a42;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
 }
