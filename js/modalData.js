@@ -56,7 +56,7 @@ const projectData = [
     'The Bookstore is a website where the user can display a list of books, add a book by providing a title, an author, and selecting from the categories, and remove a selected book.',
   },
   {
-    snapshot: './assets/images/img1.png',
+    snapshot: './assets/images/travel.png',
     projectName: 'Marvel Space Hub',
     technologies: ['React', 'Redux', 'Rest API', 'Linters'],
     live: 'https://marvel-space.netlify.app/',
@@ -66,7 +66,7 @@ const projectData = [
   },
   {
     snapshot: './assets/images/pictury.png',
-    projectName: 'Pictury',
+    projectName: 'Picture World',
     technologies: ['React', 'JavaScript', 'API', 'Tailwind CSS'],
     live: 'https://pictureworld.netlify.app/',
     source: 'https://github.com/kendoriddy/picture-world',
