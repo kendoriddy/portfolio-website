@@ -1,5 +1,32 @@
 const projectData = [
   {
+    snapshot: './assets/images/awesome.png',
+    projectName: 'Awesome Books',
+    technologies: ['HTML', 'JavaScript', 'Linters', 'CSS'],
+    live: 'https://kendoriddy.github.io/awesome-books-v2/',
+    source: 'https://github.com/kendoriddy/awesome-books-v2',
+    description:
+      'This project is an website that displays a list of books that users have added.It allows you to add and remove books from that list also. The goal of this project is to build a simple multi-page responsive book website. For this project, I setup Html-CSS-Javascript linter following the guidelines stated in the Microverse Html-CSS-Javascript linter config documentation, I followed mobile first approach while building the website, made the website responsive on mobile and desktop, made the website interactive, ran tests and finally deployed the app to github pages.',
+  },
+  {
+    snapshot: './assets/images/box.png',
+    projectName: 'BoxMonie Web Application',
+    technologies: ['React', 'JavaScript', 'Node', 'CSS'],
+    live: 'http://boxmonie.com/',
+    source: 'https://github.com/TIIDELab',
+    description:
+      'This project is a group project where I collaborated with some colleagues to build a fullstack fin-tech web application(github repository is private). It is an online peer-to-peer, crowd-sourcing platform. It operates as an online community that enables groups of people such as partners, friends or strangers to come together to pool money and take turns receiving the total amount contributed.',
+  },
+  {
+    snapshot: './assets/images/sc1.png',
+    projectName: 'Stuk Mart',
+    technologies: ['React', 'JavaScript', 'Redux', 'API'],
+    live: 'https://stuk-mart.netlify.app/',
+    source: 'https://github.com/kendoriddy/stuk-mart',
+    description:
+    'Stuk-Mart is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the Financial modelling API. It is built using React, Redux, and React-bootstrap, Skeleton Loader, Recharts.',
+  },
+  {
     snapshot: './assets/images/math2.png',
     desktopSnapshot: './assets/images/math1.png',
     projectName: 'Math-Magician',
@@ -37,18 +64,9 @@ const projectData = [
       'I built an image gallery app using the Pixabay API, by integrating Tailwind CSS with React.',
   },
   {
-    snapshot: './assets/images/sc1.png',
-    projectName: 'Stuk Mart',
-    technologies: ['React', 'JavaScript', 'Redux', 'API'],
-    live: 'https://stuk-mart.netlify.app/',
-    source: 'https://github.com/kendoriddy/stuk-mart',
-    description:
-    'Stuk-Mart is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the Financial modelling API. It is built using React, Redux, and React-bootstrap, Skeleton Loader, Recharts.',
-  },
-  {
     snapshot: './assets/images/asos.png',
     projectName: 'ASOS Birthday Tracker',
-    technologies: ['React', 'JavaScript', 'Router', 'CSS'],
+    technologies: ['React', 'JavaScript', 'Linters', 'CSS'],
     live: 'https://asostracker.netlify.app/',
     source: 'https://github.com/kendoriddy/asos-birthday-tracker',
     description:
