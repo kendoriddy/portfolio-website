@@ -98,7 +98,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px 25px;
-  background: transparent linear-gradient(180deg, #f9f9f9 0%, #c3c0c0 100%) 0% 0% no-repeat
+  background:
+    transparent linear-gradient(180deg, #f9f9f9 0%, #c3c0c0 100%) 0% 0% no-repeat
     padding-box;
   transition: transform 0.3s ease-in-out;
   transform: translateX(0%);
@@ -343,7 +344,12 @@ header {
   border-radius: 4px;
   border: 0;
   width: 50%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-links ul li a {
+  color: #fff;
 }
 
 .about .resume a {
@@ -657,10 +663,6 @@ hr {
   border-radius: 4px;
   background: #36b37f;
   font-size: 13px;
-}
-
-.modal-links ul li a {
-  color: #fff;
 }
 
 .outlinks {
