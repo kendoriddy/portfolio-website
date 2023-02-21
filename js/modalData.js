@@ -3,8 +3,8 @@ const projectData = [
     snapshot: './assets/images/expert4.png',
     projectName: 'ExpertHub',
     technologies: ['React JS', 'Ruby on Rails', 'Linters', 'SCSS'],
-    live: 'https://kendoriddy.github.io/awesome-books-v2/',
-    source: 'https://github.com/kendoriddy/awesome-books-v2',
+    live: 'https://homeofexperts.netlify.app/',
+    source: 'https://github.com/kendoriddy/experts_hub',
     description:
       'ExpertHub is a technician reservation website that provides the public with an easy and convenient way to rent technicians and offer technical services to people.',
   },
