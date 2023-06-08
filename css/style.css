@@ -216,6 +216,7 @@ header {
 
 .work h2 {
   transition: 2s ease-in-out;
+  height: 30px;
 }
 
 .work:hover {
