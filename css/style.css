@@ -206,7 +206,7 @@ header {
 .illus2 {
   position: absolute;
   left: 0;
-  top: 270px;
+  top: 350px;
 }
 
 .work {
@@ -216,6 +216,7 @@ header {
 
 .work h2 {
   transition: 2s ease-in-out;
+  height: 30px;
 }
 
 .work:hover {
@@ -229,13 +230,13 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
+  row-gap: 50px;
 }
 
 .card {
   background: #ebf0ee;
   border-radius: 8px;
   width: 100%;
-  height: max-content;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -248,6 +249,7 @@ header {
   border-radius: 8px;
   position: relative;
   width: 100%;
+  height: 100%;
   padding: 10px;
   border: 1px solid #d0d9d4;
 }
@@ -256,7 +258,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   color: #3a4a42;
 }
@@ -331,7 +333,7 @@ header {
   padding: 15px;
 }
 
-.about button {
+.about .resume {
   margin-top: 15px;
   margin-bottom: 15px;
   font-style: normal;
@@ -343,6 +345,16 @@ header {
   background: #36b37f;
   border-radius: 4px;
   border: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-links ul li a {
+  color: #fff;
+}
+
+.about .resume a {
   color: #fff;
 }
 
@@ -655,10 +667,6 @@ hr {
   font-size: 13px;
 }
 
-.modal-links ul li a {
-  color: #fff;
-}
-
 .outlinks {
   height: 20px;
 }
@@ -873,13 +881,14 @@ input.success {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+    row-gap: 50px;
   }
 
   .card-items h5 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
   }
 

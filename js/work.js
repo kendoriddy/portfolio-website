@@ -52,17 +52,18 @@ const displayPopup = (data) => {
       <div class="modal-head">
         <h3>${data.projectName}</h3>
         <ul>
-          <li>
-            <a href=${data.live} target="_blank"
-              > <span>See Live</span> <img class="outlinks" src="./assets/images/live.svg" alt="project-image"
-            /></a>
-          </li>
-          <li>
-            <a href=${data.source} target="_blank"
-              ><span>See Source</span> <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image"
-            /></a>
-          </li>
-        </ul>
+      <li>
+        <a href=${data.live} target="_blank">See Live
+          <img class="outlinks" src="./assets/images/outlink.png" alt="project-image" />
+        </a>
+      </li>
+      ${data.source ? `
+        <li>
+          <a href=${data.source} target="_blank">See Source
+            <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image" />
+          </a>
+        </li>` : ''}
+    </ul>
       </div>
       <div class="mobile-skillset">
         <p>${data.technologies[0]}</p>
@@ -82,16 +83,19 @@ const displayPopup = (data) => {
         </p>
       </div>
       <div class="modal-links">
-        <ul>
-          <li>
-            <a href=${data.live} target="_blank">See Live
-              <img class="outlinks" src="./assets/images/outlink.png" alt="project-image" /></a>
-          </li>
-          <li>
-            <a href=${data.source} target="_blank">See Source
-              <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image" /></a>
-          </li>
-        </ul>
+      <ul>
+      <li>
+        <a href=${data.live} target="_blank">See Live
+          <img class="outlinks" src="./assets/images/outlink.png" alt="project-image" />
+        </a>
+      </li>
+      ${data.source ? `
+        <li>
+          <a href=${data.source} target="_blank">See Source
+            <img class="outlinks" src="./assets/images/github-white.svg" alt="project-image" />
+          </a>
+        </li>` : ''}
+    </ul>
       </div>
   </div>`;
   popupSection.style.display = 'block';
