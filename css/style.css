@@ -229,13 +229,13 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
+  row-gap: 50px;
 }
 
 .card {
   background: #ebf0ee;
   border-radius: 8px;
   width: 100%;
-  height: max-content;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -248,6 +248,7 @@ header {
   border-radius: 8px;
   position: relative;
   width: 100%;
+  height: 100%;
   padding: 10px;
   border: 1px solid #d0d9d4;
 }
@@ -256,7 +257,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   color: #3a4a42;
 }
@@ -879,13 +880,14 @@ input.success {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+    row-gap: 50px;
   }
 
   .card-items h5 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
   }
 
