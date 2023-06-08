@@ -1,14 +1,4 @@
 const projectData = [
-  // {
-  //   snapshot: './assets/images/expert4.png',
-  //   projectName: 'ExpertHub',
-  //   technologies: ['React JS', 'Ruby on Rails', 'Linters', 'SCSS'],
-  //   live: 'https://homeofexperts.netlify.app/',
-  //   source: 'https://github.com/kendoriddy/experts_hub',
-  //   description:
-  // eslint-disable-next-line max-len
-  //     'ExpertHub is a technician reservation website that provides the public with an easy and convenient way to rent technicians and offer technical services to people.',
-  // },
   {
     snapshot: './assets/images/picture.png',
     projectName: 'Pictury',
