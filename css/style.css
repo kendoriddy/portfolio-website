@@ -98,8 +98,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px 25px;
-  background:
-    transparent linear-gradient(180deg, #f9f9f9 0%, #c3c0c0 100%) 0% 0% no-repeat
+  background: transparent linear-gradient(180deg, #f9f9f9 0%, #c3c0c0 100%) 0% 0% no-repeat
     padding-box;
   transition: transform 0.3s ease-in-out;
   transform: translateX(0%);
@@ -553,9 +552,9 @@ hr {
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 8px;
+  margin: auto;
+  width: 90vw;
   margin-top: 30px;
-  margin-left: 15vw;
-  width: 70vw;
   height: 90vh;
   overflow-y: scroll;
   overflow-x: hidden;
